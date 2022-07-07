@@ -21,28 +21,56 @@
     ></script>
     <script src="../bootstrap/js/bootstrap.min.js"></script>
 
-    <nav>
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/projects">Projects & Notes</a></li>
-        <!-- <li><a href="/about">About Me</a></li> -->
-        <li><a href="/resume">Resume</a></li>
-      </ul>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/projects">Projects & Notes</a>
+          </li>
+          <li class="nav-item">
+            <a href="/resume">Resume</a>
+          </li>
+        </ul>
+      </div>
     </nav>
-    <div class="container">
+
+    <!-- <div class="container">
       <div class="blurb">
         <h1>Hello.</h1>
         <p>Yes. <a href="/about"> wow.... </a></p>
       </div>
-      /.blurb
+    </div> -->
+
+    <div class="container">
+      <footer
+        class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+      >
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3">
+            <a class="text-muted" href="mailto:jakinng@mit.edu">email</a>
+          </li>
+          <li class="ms-3">
+            <a class="text-muted" href="https://github.com/xueenwu"
+              >github.com/xueenwu</a
+            >
+          </li>
+        </ul>
+      </footer>
     </div>
-    /.container
-    <footer>
-      <ul>
-        <li><a href="mailto:jakinng@mit.edu">email</a></li>
-        <li><a href="https://github.com/xueenwu">github.com/xueenwu</a></li>
-      </ul>
-    </footer>
   </body>
 </html>
 
